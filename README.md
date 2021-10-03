@@ -24,10 +24,12 @@ to train as well as rewards collected. Higher reward and lesser number of episod
 
 
 ![](img/bad.gif)
-`Robot recovery response when angular output passed directly for Q-learning`
+
+`Robot recovery response slower when angular output passed directly for Q-learning`
 
 ![](img/good.gif)
-`Robot recovery response when angular output passed through Kalman-filter for Q-learning` 
+
+`Robot recovery response faster when angular output passed through Kalman-filter for Q-learning` 
 
 It was found that Q-learning model trained with Kalman flter had better
 time response when external disturbance was applied compared to without Kalman flter. This approach of cascading two well-tested techniques
