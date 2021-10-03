@@ -34,6 +34,6 @@ to train as well as rewards collected. Higher reward and lesser number of episod
 It was found that Q-learning model trained with Kalman flter had better
 time response when external disturbance was applied compared to without Kalman flter. This approach of cascading two well-tested techniques
 
-Refer - ![An Improved Q-learning Approach with Kalman Filter for Self-balancing Robot Using OpenAI](https://link.springer.com/article/10.1007%2Fs40313-021-00786-x)
+Refer official - ![An Improved Q-learning Approach with Kalman Filter for Self-balancing Robot Using OpenAI](https://link.springer.com/article/10.1007%2Fs40313-021-00786-x)
  
 
